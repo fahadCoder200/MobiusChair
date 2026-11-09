@@ -1,0 +1,33 @@
+# Build and compilation outputs (Mill, SBT, Scala)
+out/
+target/
+build/
+project/target/
+project/project/
+
+# Generated hardware description outputs
+*.fir
+*.v
+*.anno.json
+generated/
+test_run_dir/
+
+# IDE and Editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.metals/
+.bloop/
+.bsp/
+.scala-build/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*~
+.#*
